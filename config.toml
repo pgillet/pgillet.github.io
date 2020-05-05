@@ -1,0 +1,44 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "pgillet$ >_"
+theme = "noteworthy"
+
+[params]
+# Main
+email = "pascalgillet@ymail.com"
+#facebook = "#"
+twitter = "https://twitter.com/psclgllt"
+#instagram = "#"
+#tumblr = "#"
+#reddit = "#"
+#pinterest = "#"
+#youtube = "#"
+#vimeo = "#"
+#weibo = "#"
+#vk = "#"
+linkedin = "https://www.linkedin.com/in/pascal-gillet-a3171b13/"
+
+# Writing
+#medium = "#"
+#blogger = "#"
+#wordpress = "#"
+
+# Creative & Visual
+#dribbble = "#"
+#behance = "#"
+#deviantart = "#"
+flickr = "https://www.flickr.com/photos/96202293@N04/"
+
+# Audio & Music
+#soundcloud = "#"
+
+# Programming
+github = "https://github.com/pgillet"
+#stackoverflow = "#"
+#gitlab = "#"
+#codepen = "#"
+
+# Academic
+#googlescholar = "#"
+#impactstory = "#"
+#orcid = "#"  
