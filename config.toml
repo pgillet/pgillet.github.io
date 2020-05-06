@@ -5,7 +5,7 @@ theme = "noteworthy"
 
 [params]
 # Main
-email = "pascalgillet@ymail.com"
+email = "mailto:pascalgillet@ymail.com"
 #facebook = "#"
 twitter = "https://twitter.com/psclgllt"
 #instagram = "#"
