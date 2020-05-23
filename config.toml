@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "/"
 languageCode = "en-us"
 title = "pgillet$ >_"
 theme = "noteworthy"
@@ -19,7 +19,7 @@ twitter = "https://twitter.com/psclgllt"
 linkedin = "https://www.linkedin.com/in/pascal-gillet-a3171b13/"
 
 # Writing
-#medium = "#"
+medium = "https://medium.com/@psclgllt"
 #blogger = "#"
 #wordpress = "#"
 
@@ -39,6 +39,25 @@ github = "https://github.com/pgillet"
 #codepen = "#"
 
 # Academic
-#googlescholar = "#"
+googlescholar = "https://scholar.google.com/citations?user=Xx6tZQkAAAAJ&hl=fr"
 #impactstory = "#"
-#orcid = "#"  
+#orcid = "#"
+
+# Menu links along the sidebar navigation.
+[[menu.main]]
+	identifier = "about"
+	name = "About"
+	url = "/about/webcontent/index.html"
+	weight = 1 # Weight is an integer used to sort the menu items. The sorting goes from smallest to largest numbers. If weight is not defined for each menu entry, Hugo will sort the entries alphabetically.
+
+[[menu.main]]
+	identifier = "tags"
+	name = "Tags"
+	url = "/tags/"
+	weight = 2
+
+[[menu.main]]
+	name = "Archives"
+	identifier = "archives"
+	url = "/archives/"
+	weight = 3
