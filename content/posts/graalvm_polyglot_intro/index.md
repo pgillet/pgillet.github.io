@@ -17,10 +17,17 @@ mixing of code from any programming language in a single program, namely "polygl
 
 <!--more-->
 
-The main argument in favor of GraalVM as a Polyglot Platform, and language interoperability in general, is the reuse of 
-existing code, much like inheritance in object-oriented programming languages whereby a subclass re-uses code in a base 
-class (at least, it was the "silver bullet" announced with the rise of OO languages). Except that here, we get rid of 
-the limits of the programming language and its ecosystem. Indeed, a programming language never comes alone. 
+The main argument in favor of GraalVM as a Polyglot Platform, and cross-language interoperability in general, is the 
+reuse of existing code, much like inheritance in object-oriented programming languages whereby a subclass re-uses code 
+in a base class (at least, it was the "silver bullet" announced with the rise of OO languages). Except that here, we get 
+rid of the limits of the programming language and its ecosystem. Indeed, a programming language rarely comes alone: a 
+language is often accompanied by standard/core libraries for commonly used algorithms such as sorting algorithms, data 
+structures such as lists, trees, and hash tables, and base mechanisms for input/output. These libraries can even be
+ an integral part of certain syntactic constructs of the language. For instance, in Java, a string literal is defined
+  as an instance of the `java.lang.String` class: there is no primitive type for a string. Afterwards, it depends on
+   the language philosophy: TODO see https://en.wikipedia.org/wiki/Standard_library. The more a language is adopted
+   ,  the bigger the set of these libraries.
+ 
 siloed environment and a closed world
 
 
