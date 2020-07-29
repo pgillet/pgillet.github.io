@@ -1,5 +1,5 @@
 ---
-title: "A brief rationale of GraalVM as a Polyglot Platform"
+title: "A simple use case of GraalVM as a polyglot platform"
 date: 2020-06-12T04:00:00+01:00
 tags: ["GraalVM", "Polyglot"]
 author: "Pascal Gillet"
@@ -37,3 +37,16 @@ A language can have its own characteristics that make it suitable for a given pr
 
 
 there are a lot of precedents and attempts to achieve language interoperability
+
+> "Whatever we do, we always end up inserting corrupted data into the system" - *The client*
+
+Let's say that a customer comes to us with the following problem: *they* maintain a Web application for many years.
+This application follows the three-tier architecture model where presentation, application processing and data
+ management are developed and maintained as independent modules.
+
+
+
+
+
+
+
