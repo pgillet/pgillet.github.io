@@ -7,7 +7,7 @@ author: "Pascal Gillet"
 lang: en
 ---
 
-In the previous article, we saw how to launch Spark applications with the Spark Operator. In this article, we'll see 
+In the [previous article](../spark-k8s-0/index.html), we saw how to launch Spark applications with the Spark Operator. In this article, we'll see 
 how to do the same thing, but natively with spark-submit. Let's first explain the differences between the two ways 
 of deploying your driver on the worker nodes.
 
@@ -390,4 +390,4 @@ Kubernetes:
 {{< resize-image src="spark-submit.png" alt="spark-submit" >}}
 
 Now that we've defined all of our Kubernetes resources for spark-submit, we're going to get our hands on some Python 
-code to orchestrate all of this. See you in the third and final article in this series.
+code to orchestrate all of this. See you in the [third and final article](../spark-k8s-2/index.html) in this series.

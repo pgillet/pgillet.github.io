@@ -9,8 +9,8 @@ lang: en
 
 {{< resize-image src="header.png" alt="banner" >}}
 
-_Je vous parle d'un temps
-Que les moins de vingt ans
+_Je vous parle d'un temps  
+Que les moins de vingt ans  
 Ne peuvent pas connaître_ :notes:
 
 Until not long ago, the way to go to run Spark on a cluster was either with Spark's own standalone cluster manager, 
@@ -429,5 +429,5 @@ Eventually, choosing between the Spark Operator and spark-submit is a matter of 
 and you run Spark workloads among other types of workloads, or you do Spark first, and Kubernetes is just a mean to 
 allocate resources on a cluster.
 
-In the following article, we will see how the magic of the Spark Operator operates, by reproducing all of its 
+In the [following article](../spark-k8s-1/index.html), we will see how the magic of the Spark Operator operates, by reproducing all of its 
 internals with spark-submit.
