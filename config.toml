@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = "pgillet$ >_"
 theme = "noteworthy"
 
+enableEmoji = true
+
 [params]
 # Main
 email = "mailto:pascalgillet@ymail.com"
