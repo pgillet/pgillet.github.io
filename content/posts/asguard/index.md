@@ -749,7 +749,9 @@ We made a demo which includes all the elements explained in this article. You wi
 [here](https://gitlab.com/stack-labs/oss/asguard-demo).
 
 We also presented this subject at the "Capitole du Libre" conference at Toulouse in November 2019. Here is the YouTube 
-[video](https://youtu.be/bLoNUJizaSI) (in French).
+[video](https://youtu.be/bLoNUJizaSI) (in French):
+
+[![Comment faire du « Lift and Shift » sans faire de compromis sécurité ?](https://img.youtube.com/vi/bLoNUJizaSI/0.jpg)](https://youtu.be/bLoNUJizaSI)
 
 ## See also
 - [rkt](https://coreos.com/rkt/): an alternative to Docker with security as a first-class citizen (container isolation, 
