@@ -2,7 +2,7 @@
 title: "Ingestion de données: État de l'Art"
 date: 2018-11-15T04:00:00+01:00
 
-tags: ["Big Data", "Data Ingestion", "Hadoop", "Kylo", "Data Lake"]
+tags: ["Big Data", "Data Ingestion", "Hadoop", "Kylo", "Data Lake", "🇫🇷"]
 author: "Pascal Gillet"
 picto_bubble: "fas fa-database"
 ---

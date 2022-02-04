@@ -2,16 +2,14 @@
 title: "GraalVM: la JVM polyglotte"
 date: 2019-12-12T00:00:00+00:00
 
-tags: ["GraalVM", "JVM", "Polyglot"]
+tags: ["GraalVM", "JVM", "Polyglot", "🇫🇷"]
 author: "Pascal Gillet"
 lang: fr
 ---
 
 Présentation de "GraalVM: la JVM polyglotte" au Toulouse JUG le 12 décembre 2019.
 
-
-[![GraalVM: la JVM polyglotte](https://img.youtube.com/vi/PypmeSh1WlQ/0.jpg)](https://youtu.be/PypmeSh1WlQ)
-
+video::PypmeSh1WlQ[youtube]
 
 > “Cette librairie n'est pas disponible dans mon langage de programmation. Je dois la réécrire."
 
