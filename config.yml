@@ -3,6 +3,7 @@ title: pgillet$ >_
 paginate: 5
 theme: PaperMod
 
+enableEmoji: true
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
@@ -121,9 +122,9 @@ menu:
       name: tags
       url: /tags/
       weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
+    - identifier: about
+      name: about
+      url: /about/webcontent
       weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
@@ -135,7 +136,6 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
-
 
 security:
   exec:
