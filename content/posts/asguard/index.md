@@ -9,7 +9,7 @@ lang: en
 banner: /images/articles/asguard_security_solution/843px-The_Ash_Yggdrasil_by_Friedrich_Wilhelm_Heine.jpg
 ---
 
-{{< resize-image src="843px-The_Ash_Yggdrasil_by_Friedrich_Wilhelm_Heine.jpg" alt="banner" >}}
+![banner](843px-The_Ash_Yggdrasil_by_Friedrich_Wilhelm_Heine.jpg)
 
 This article presents a security solution implemented as part of a project led by Stack Labs on behalf of one of our 
 customers in the space sector. The purpose of this project was to migrate a legacy application to Google Cloud 
@@ -73,7 +73,7 @@ a CLI and a HTTP API, to interact with it. It can be viewed as "encryption as a 
 
 The CI/CD pipeline, implemented with Gitlab CI/CD, is as follows:
 
-{{< resize-image src="asguard-ci-cd.png" alt="Asguard secured CI/CD" >}}
+![Asguard secured CI/CD](asguard-ci-cd.png)
 
 The steps are numbered and detailed below:
 
@@ -149,7 +149,7 @@ These allow Vault to:
 The following diagram shows how Vault communicates with Google Cloud to authenticate and authorize JWT tokens:
 
 
-{{< resize-image src="vault-gcp-gce-auth-workflow.png" alt="Vault GCE Auth workflow" >}}
+![Vault GCE Auth workflow](vault-gcp-gce-auth-workflow.png)
 
 1. The client obtains an instance identity metadata token on a GCE instance.
 2. The client sends this JWT to Vault along with a role name.
@@ -180,7 +180,7 @@ httpd.serve_forever()
 
 In particular, it will serve the following `index.html` page:
 
-{{< resize-image src="asguard-demo-index-html-before.png" alt="Asguard demo index html" >}}
+![Asguard demo index html](asguard-demo-index-html-before.png)
 
 The goal of our demo will be to modify this index page, commit our changes, and create a git tag to see the CI 
 automatically triggered and our new version deployed, and see in the meantime what are the security elements that have 
@@ -615,7 +615,7 @@ are securely passed to the pipeline running.
 haters saying that Kubernetes files should be template-free and should only be patched (see this other article on 
 [kubectl kustomize](/code/kustomize-101)), but hey, this is a demo...😱
 
-{{< resize-image src="gitlab-protected-env-variables.png" alt="Gitlab protected environment variables" >}}
+![Gitlab protected environment variables](gitlab-protected-env-variables.png)
 
 Gitlab itself must be a trusted part of the chain: it can be either self-hosted on-premises or online (SaaS). The Gitlab 
 project must have at least restricted access to the only developers needed for the project. If online, the project 
@@ -679,7 +679,7 @@ decrypted and unpacked: the Python web server can start and Grumpy the cat is no
 If you visit the [Kubernetes ingress](https://gitlab.com/stack-labs/oss/asguard-demo/-/blob/master/k8s/ingress.yml)'s 
 endpoint, you will see the following web page:
 
-{{< resize-image src="asguard-demo-index-html-after.png" alt="Asguard demo index html" >}}
+![Asguard demo index html](asguard-demo-index-html-after.png)
 
 Note that the self-starting process here can be implemented in whatever language that suits you: you can pick the right 
 distroless image for the desired stack, and Vault provides many 

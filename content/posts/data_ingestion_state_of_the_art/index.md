@@ -34,7 +34,7 @@ Oozie est intégré à l’écosystème Hadoop et prend en charge plusieurs type
 - **Apache Sqoop** est un outil en ligne de commande pour transférer des données en masse depuis des bases de données relationnelles vers Hive. Il prend en charge le chargement différentiel d’une table ou d’une requête SQL depuis la dernière importation.
 - **Apache Spark**. Spark est un framework de traitement distribué permettant d’exécuter des tâches map-reduce en mémoire. Spark SQL, notamment, permet d'exécuter des requêtes en langage SQL pour charger et transformer des données.
 
-{{< resize-image src="data-lake-failure-2-1600x640.jpg" alt="Data Lake failure" >}}
+![Data Lake failure](data-lake-failure-2-1600x640.jpg)
 
 Beaucoup d'études ont été réalisées sur le bien-fondé des lacs de données et sur les raisons pour lesquelles certaines initiatives de data lake ont échoué dans de grandes entreprises.
 Parmi ces raisons, on trouve que le problème réside dans les outils et les méthodes utilisés pour alimenter le lac de données. L'ingestion de données dépend encore trop souvent d'un développement personnalisé pour chaque système source. Des outils spécialement conçus et des scripts spécifiques rendent l'ingestion de données volumineuses complexe, longue et coûteuse. Le système n'est pas scalable du fait de la trop grande variété des sources, et de leurs volumes grandissants... Souvenez-vous, les [4 Vs du Big Data](https://www.ibmbigdatahub.com/infographic/four-vs-big-data) et les enjeux associés.
@@ -92,14 +92,14 @@ En termes de déploiement et d'architecture :
 **Apache NiFi constitue la base essentielle de Kylo.**
 Les administrateurs de Kylo déterminent comment les utilisateurs peuvent configurer des flux en fonction de modèles de traitement. L’administrateur (ou plutôt ici le concepteur) est ainsi responsable du développement de ces modèles dans Apache NiFi. Une fois qu'un modèle a été enregistré dans Kylo via une interface d'administration, Kylo permet aux utilisateurs finaux de créer et de configurer des flux via un assistant (_wizard_) créé dynamiquement sur la base de ce modèle. L'utilisation de modèles rend donc Kylo hautement configurable.
 
-{{< resize-image src="kylo-define-source.png" alt="Kylo source definition" >}}
+![Kylo source definition](kylo-define-source.png)
 
-{{< resize-image src="kylo-define-feed.png" alt="Kylo feed definition" caption="Les utilisateurs peuvent facilement configurer des flux dans une interface utilisateur guidée" >}}
+![Kylo feed definition" caption="Les utilisateurs peuvent facilement configurer des flux dans une interface utilisateur guidée](kylo-define-feed.png)
 
 Le concepteur détermine les paramètres pouvant être saisis par un utilisateur final dans l'interface de l'assistant, et comment ces champs sont affichés (par exemple : liste de sélection, fenêtre SQL, champ numérique, etc.), ainsi que les valeurs par défaut ou les contraintes. Les paramètres saisis servent à configurer les outils sous-jacents nécessaires au traitement du flux, en prenant en compte la sécurité, les exigences de la Data Governance et la gestion des erreurs. Les utilisateurs peuvent uniquement définir les paramètres exposés par le concepteur de modèles.
 Les éléments du modèle qui réalisent le traitement du flux sont les processeurs NiFi. Il existe plusieurs types de processeurs, pour obtenir des fichiers, lire depuis Twitter ou Kafka, exécuter des requêtes SQL sur une base de données, compresser ou décompresser des fichiers, envoyer des données via SFTP ou supprimer un fichier dans Hadoop. Apache NiFi fournit toute une bibliothèque de processeurs standards. Apache Nifi est extensible : il est possible de développer ses propres processeurs. Ceci permet un développement rapide et des tests efficaces de nouveaux scénarios d’ingestion de données.
 
-{{< resize-image src="nifi.png" alt="Nifi template" caption="Le template Nifi permettant de générer l'assistant Kylo vu plus haut" >}}
+![Nifi template" caption="Le template Nifi permettant de générer l'assistant Kylo vu plus haut](nifi.png)
 
 Kylo fournit une architecture de type plug-in avec une variété d'extensions à la disposition des développeurs, et l'utilisation de modèles NiFi offre une grande  flexibilité pour implémenter et expérimenter divers scénarios d’ingestion de données spécifiques à une entreprise, pour les cas d'utilisation par lots et en flux.
 

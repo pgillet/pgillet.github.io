@@ -7,7 +7,7 @@ author: "Pascal Gillet"
 lang: en
 ---
 
-{{< resize-image src="header.jpg" alt="banner" >}}
+![banner](header.jpg)
 
 This article explains how you can restrict content distribution to a particular country from services in your Kubernetes 
 cluster, using the GeoIP2 dynamic module. 

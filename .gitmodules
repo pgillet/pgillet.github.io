@@ -1,6 +1,3 @@
-[submodule "themes/noteworthy"]
-	path = themes/noteworthy
-	url = git@github.com:pgillet/hugo-theme-noteworthy.git
 [submodule "my-resume"]
 	path = content/about
 	url = https://github.com/pgillet/my-resume.git
