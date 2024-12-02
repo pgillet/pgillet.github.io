@@ -7,7 +7,6 @@ author: "Pascal Gillet"
 cover:
   image: header.jpg
   relative: true
-  hidden: false
 lang: en
 ShowToc: true
 TocOpen: true
