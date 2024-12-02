@@ -3,7 +3,6 @@ title: "Restricting Access by Geographical Location using NGINX with Helm"
 date: "2024-08-20"
 tags: ["Kubernetes", "GeoIP", "NGINX", "Helm"]
 categories: ["english"]
-author: "Pascal Gillet"
 cover:
   image: header.png
 lang: en
