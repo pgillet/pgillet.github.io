@@ -6,10 +6,9 @@ tags: ["Security", "Cloud", "Gitlab", "Docker", "Kubernetes", "Microservices"]
 author: "Pascal Gillet"
 picto_bubble: "fas fa-rocket"
 lang: en
-banner: /images/articles/asguard_security_solution/843px-The_Ash_Yggdrasil_by_Friedrich_Wilhelm_Heine.jpg
+cover:
+  image: 843px-The_Ash_Yggdrasil_by_Friedrich_Wilhelm_Heine.jpg
 ---
-
-![banner](843px-The_Ash_Yggdrasil_by_Friedrich_Wilhelm_Heine.jpg)
 
 This article presents a security solution implemented as part of a project led by Stack Labs on behalf of one of our 
 customers in the space sector. The purpose of this project was to migrate a legacy application to Google Cloud 

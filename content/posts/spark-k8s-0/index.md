@@ -5,9 +5,9 @@ date: 2021-04-12T00:00:00+00:00
 tags: ["Spark", "Kubernetes", "Python"]
 author: "Pascal Gillet"
 lang: en
+cover:
+    image: header.png
 ---
-
-![banner](header.png)
 
 _Je vous parle d'un temps  
 Que les moins de vingt ans  
