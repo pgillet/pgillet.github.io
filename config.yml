@@ -1,5 +1,5 @@
 baseURL: "https://pascalgillet.net/"
-title: pgillet$ >_
+title: "\U0001F951 pgillet"
 paginate: 5
 theme: PaperMod
 
@@ -15,7 +15,7 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: pgillet$ >_
+  title: "\U0001F951 pgillet"
   description: "Pascal Gillet's Personal Blog"
   keywords: [Blog, Portfolio, PaperMod]
   author: Pascal GILLET
@@ -51,8 +51,8 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "pgillet$ >_"
-    icon: /apple-touch-icon.png
+    text: "\U0001F951 pgillet"
+    #icon: /apple-touch-icon.png
     iconHeight: 35
 
   # profile-mode
