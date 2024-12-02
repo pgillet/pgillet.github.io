@@ -1,6 +1,6 @@
-[submodule "my-resume"]
-	path = content/about
-	url = https://github.com/pgillet/my-resume.git
 [submodule "themes/PaperMod"]
 	path = themes/PaperMod
 	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "content/about"]
+	path = content/about
+	url = https://github.com/pgillet/my-resume.git
