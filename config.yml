@@ -29,7 +29,7 @@ params:
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
@@ -76,12 +76,16 @@ params:
     Content: Welcome to my blog
 
   socialIcons:
-    - name: x
-      url: "https://x.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
+    - name: email
+      url: "mailto:pascalgillet@ymail.com"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/pgillet/"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/pascal-g-a3171b13/"
+    - name: googlescholar
+      url: "https://scholar.google.com/citations?user=Xx6tZQkAAAAJ&hl=fr"
+    - name: flickr
+      url: "https://www.flickr.com/photos/96202293@N04/"
 
   analytics:
     google:
