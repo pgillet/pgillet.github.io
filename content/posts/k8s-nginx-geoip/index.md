@@ -6,6 +6,7 @@ categories: ["english"]
 author: "Pascal Gillet"
 cover:
   image: header.jpg
+  relative: true
 lang: en
 ShowToc: true
 TocOpen: true
