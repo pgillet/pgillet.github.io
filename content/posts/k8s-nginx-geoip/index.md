@@ -1,13 +1,15 @@
 ---
 title: "Restricting Access by Geographical Location using NGINX with Helm"
-date: 2024-08-20T04:00:00+01:00
-
+date: "2024-08-20"
 tags: ["Kubernetes", "GeoIP", "NGINX", "Helm"]
+categories: ["english"]
 author: "Pascal Gillet"
+cover:
+  image: header.jpg
 lang: en
+ShowToc: true
+TocOpen: true
 ---
-
-![banner](header.jpg)
 
 This article explains how you can restrict content distribution to a particular country from services in your Kubernetes 
 cluster, using the GeoIP2 dynamic module. 
