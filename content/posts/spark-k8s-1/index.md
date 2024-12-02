@@ -23,7 +23,7 @@ In this mode, the script exits normally as soon as the application has been subm
 can run on its own in the kubernetes cluster. You can print the logs of the driver pod with the `kubectl logs` command 
 to see the output of the application.
 
-{{< resize-image src="k8s-cluster-mode.png" alt="k8s cluster mode" >}}
+![k8s cluster mode](k8s-cluster-mode.png)
 
 It is possible to use the authenticating `kubectl` proxy to communicate to the Kubernetes API.
 
@@ -41,7 +41,7 @@ In _client mode_, the `spark-submit` command is directly passed with its argumen
 pod. With the `deploy-mode` option set to `client`, the driver is launched directly within the `spark-submit` process 
 which acts as a client to the cluster. The input and output of the application are attached to the logs from the pod.
 
-{{< resize-image src="k8s-client-mode.png" alt="k8s client mode" >}}
+![k8s client mode](k8s-client-mode.png)
 
 ## Who Does What?
 
@@ -55,7 +55,7 @@ thus embeds a Spark distribution which plays the role of Spark scheduler; driver
 controller... and then run `spark-submit` in client mode internally to run the driver program. But this is globally 
 transparent for the end user.
   
-{{< resize-image src="spark-operator-architecture-diagram.png" alt="k8s client mode" >}}
+![k8s client mode](spark-operator-architecture-diagram.png)
  
 Additional details of how `SparkApplications` are run can be found in the 
 [design documentation](https://github.com/GoogleCloudPlatform/spark-on-k8s-operator/blob/master/docs/design.md#architecture).
@@ -387,7 +387,7 @@ filtered in the same way, whether they are launched with the Spark Operator or w
 We have now managed to mimic the same behavior we got with the Spark Operator, here is what we have deployed in 
 Kubernetes:
 
-{{< resize-image src="spark-submit.png" alt="spark-submit" >}}
+![spark-submit](spark-submit.png)
 
 Now that we've defined all of our Kubernetes resources for spark-submit, we're going to get our hands on some Python 
 code to orchestrate all of this. See you in the [third and final article](../spark-k8s-2/index.html) in this series.

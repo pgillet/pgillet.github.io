@@ -7,7 +7,7 @@ author: "Pascal Gillet"
 lang: en
 ---
 
-{{< resize-image src="header.png" alt="banner" >}}
+![banner](header.png)
 
 _Je vous parle d'un temps  
 Que les moins de vingt ans  
@@ -415,7 +415,7 @@ collection, pod configuration, access to the driver UI.
 
 The following diagram shows what is actually deployed in Kubernetes under the hood:
 
-{{< resize-image src="spark-operator.png" alt="spark operator" >}}
+![spark operator](spark-operator.png)
 
 In use, the operator is way much easier than `spark-submit`. But spark-submit is definitely not going away and is 
 still the Spark native way of launching applications. _"In the long term, for application submission, the operator 
