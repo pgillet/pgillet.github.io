@@ -5,8 +5,9 @@ tags: ["Kubernetes", "GeoIP", "NGINX", "Helm"]
 categories: ["english"]
 author: "Pascal Gillet"
 cover:
-  image: ./header.jpg
+  image: header.jpg
   relative: true
+  hidden: false
 lang: en
 ShowToc: true
 TocOpen: true
