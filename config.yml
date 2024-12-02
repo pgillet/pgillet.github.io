@@ -13,12 +13,6 @@ minify:
   disableXML: true
   minifyOutput: true
 
-outputs:
-  home:
-    - HTML
-    - RSS
-    - JSON
-
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: "\U0001F951 pgillet"
@@ -140,6 +134,9 @@ menu:
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
+  goldmark:
+    renderer:
+      unsafe: true
   highlight:
     noClasses: false
     # anchorLineNos: true
