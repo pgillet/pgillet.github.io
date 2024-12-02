@@ -2,7 +2,8 @@
 title: "GraalVM: la JVM polyglotte"
 date: 2019-12-12T00:00:00+00:00
 
-tags: ["GraalVM", "JVM", "Polyglot", "🇫🇷"]
+tags: ["GraalVM", "JVM", "Polyglot"]
+categories: ["french"]
 author: "Pascal Gillet"
 lang: fr
 ---
